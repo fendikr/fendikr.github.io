@@ -1,0 +1,75 @@
+.text-js {
+  font-family: 'Playfair Display';
+  font-weight: 800;
+}
+
+body {
+  margin: 0;
+  font-family: Open sans, -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+  font-size: 0.5rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+
+em {
+  background-color: #ffdcb4;
+  font-style: italic;
+  color: #ff6768;
+}
+
+@media (min-width:992px) {
+  .col-lg-10 {
+    -ms-flex: 0 0 83.33333%;
+    flex: 0 0 83.33333%;
+    max-width: 83.33333%;
+  }
+}
+
+.bg-primary {
+  background-color: #212529!important;
+}
+
+hr {
+  max-width: 50px;
+  border-width: 3px;
+  border-color: #c7bdb1;
+}
+
+#footer {
+}
+
+a, a:hover {
+  color: #000000;
+}
+
+a {
+  /*text-decoration: none;*/
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+html {
+}
+
+.text-muted {
+  color: #ffffff!important;
+}
+
+.list-inline-item:not(:last-child) {
+  margin-right: 1.5rem;
+}
+
+address, dl, ol, ul {
+  margin-bottom: 2rem;
+}
+
+header.masthead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 56px);
+  background-position: 50%;
+  background-size: cover;
+}
+
